@@ -12,8 +12,8 @@ p{
   font-weight: bold;
 }
 .logo {
-  width: 50px;
-  height: 50px;
+  width: 150px;
+  height: 75px;
   border-radius: 50px;
   right: 50%;
 }
@@ -67,6 +67,10 @@ footer {
 }
 .label{
   padding: 8px;
+}
+.text{
+  text-align: justify;
+  font-size: 26px;
 }
 .text1{
   text-align: center;
