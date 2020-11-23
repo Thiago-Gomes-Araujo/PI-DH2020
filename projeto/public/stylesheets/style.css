@@ -63,8 +63,17 @@ footer {
   padding: 0 0 5% 5%;
 }
 .row-3{
-  padding: 0 0 55% 5%;
+  padding: 0 0 55% 0%;
 }
 .label{
   padding: 8px;
+}
+.text1{
+  text-align: center;
+  /* padding-left: 8%; */
+  font-size: 26px;
+  padding-bottom: 15%;
+}
+.col-sm-4{
+  padding-bottom: 8%;
 }
