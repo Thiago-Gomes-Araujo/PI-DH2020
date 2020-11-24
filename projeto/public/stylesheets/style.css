@@ -29,13 +29,15 @@ footer {
   background-color: #6C6C6C!important;
   /* height: 90px; */
 }
-.btn-outline-success {
+/* .btn-outline-success {
   color: #000000;
   border-color:#6BACA8;
-}
+  color: #f8f9fa!important;
+} */
 
 .btn {
   background-color:#6BACA8;
+  color: #ffff!important;
 }
 
 .page-min-height {
@@ -80,4 +82,7 @@ footer {
 }
 .col-sm-4{
   padding-bottom: 8%;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #f8f9fa;
 }
