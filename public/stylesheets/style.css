@@ -1,11 +1,14 @@
 .container{
   padding-top: 10%;
+  position: sticky;
+  
 
 }
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   height: 100vh;
   background:linear-gradient(329.54deg, #C8C8C8 0%, #E5E5E5 100%);
+  position: sticky;
   
 
 }
@@ -58,6 +61,7 @@ footer {
 .text{
   text-align: justify;
   font-size: 18px;
+  padding-bottom: 5%;
 }
 .text1{
   text-align: center;
@@ -68,9 +72,11 @@ footer {
 .col-sm-4{
   padding-bottom: 8%;
 }
-.nav{
-  padding-left: 20px;
+.navbar-sticky{
+  position: -webkit-sticky;
+  position: sticky;
 }
+
 .navbar-dark .navbar-nav .nav-link {
   color: #f8f9fa;
   padding-top: 5rem;
@@ -84,10 +90,13 @@ footer {
   padding-right: 1rem;
   padding-left: .5rem;
   padding-top: .7rem;
+  position: sticky;
+  
 }
 .navbar-nav{
   padding-right: 1rem;
-  padding-left: .5rem
+  padding-left: .5rem;
+  position: sticky;
 }
 .entrar{
   width: 100%;
@@ -120,6 +129,8 @@ footer {
 }
 
 
+
+
 /* animações */
 @keyframes up {
   from {
@@ -139,3 +150,9 @@ footer {
   animation-fill-mode: backwards;
 }
 
+
+@media (min-width: 760px) {
+  .text-expand-lg{
+    font-size: 26px;
+  }
+}
