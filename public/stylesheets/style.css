@@ -1,0 +1,141 @@
+.container{
+  padding-top: 10%;
+
+}
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  height: 100vh;
+  background:linear-gradient(329.54deg, #C8C8C8 0%, #E5E5E5 100%);
+  
+
+}
+
+a {
+  color: #00B7FF;
+}
+p{
+  font-weight: bold;
+}
+.logo {
+  width: 150px;
+  height: 75px;
+  border-radius: 50px;
+  right: 50%;
+  padding-top: 10px;
+}
+
+footer {
+  height: 90px;
+}
+
+.bg-dark {
+  background-color: #6C6C6C!important;
+  /* height: 90px; */
+}
+.btn {
+  background-color:#6BACA8;
+  color: #ffff!important;
+}
+
+.page-min-height {
+  height: calc(100vh - 100px);
+}
+
+.row-1{
+  text-align: center;
+  padding: 29% 0 0% 5%;
+  align-items: center;
+}
+.row-2{
+  padding: 0 0 5% 5%;
+}
+.row-3{
+  padding: 0 0 55% 0%;
+}
+.label{
+  padding: 8px;
+}
+.text{
+  text-align: justify;
+  font-size: 18px;
+}
+.text1{
+  text-align: center;
+  /* padding-left: 8%; */
+  font-size: 26px;
+  padding-bottom: 15%;
+}
+.col-sm-4{
+  padding-bottom: 8%;
+}
+.nav{
+  padding-left: 20px;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #f8f9fa;
+  padding-top: 5rem;
+}
+.nav-link{
+  display: block;
+  padding: 0.5rem 0.5rem;
+  
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 1rem;
+  padding-left: .5rem;
+  padding-top: .7rem;
+}
+.navbar-nav{
+  padding-right: 1rem;
+  padding-left: .5rem
+}
+.entrar{
+  width: 100%;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color:rgba(196, 196, 196, 0.8);
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  text-align: center;
+}
+
+
+.btn-secondary{
+  width: 95%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+
+.form-signin{
+  background-color: white;
+  margin: 60px;
+  padding: 50px;
+  border-radius: 30px;
+
+}
+
+
+/* animações */
+@keyframes up {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animated-up {
+  animation-name: up;
+  animation-duration: 300ms;
+  animation-fill-mode: backwards;
+}
+
