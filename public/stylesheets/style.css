@@ -1,6 +1,7 @@
 .container{
   padding-top: 10%;
-  position: sticky;
+  
+ 
   
 
 }
@@ -8,7 +9,7 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   height: 100vh;
   background:linear-gradient(329.54deg, #C8C8C8 0%, #E5E5E5 100%);
-  position: sticky;
+
   
 
 }
@@ -75,6 +76,7 @@ footer {
 .navbar-sticky{
   position: -webkit-sticky;
   position: sticky;
+  top: 0;
 }
 
 .navbar-dark .navbar-nav .nav-link {
