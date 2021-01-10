@@ -5,7 +5,7 @@ Projeto DH
 ## Check List
 
 ### Index - THIAGO
-- [ ] Deixar o menu fixo
+- [X] Deixar o menu fixo
 - [ ] deixar o gradiente fixo
 - [ ] redimencionar a barra de pesquisa no index
 
