@@ -10,7 +10,7 @@ Projeto DH
 - [ ] redimencionar a barra de pesquisa no index
 
 ### Join - THIAGO
-- [ ] Incerir imagem
+- [ ] Inserir imagem
 
 ### Sign in - MARCELO
 - [ ] Colocar a página com o fundo gradiente
