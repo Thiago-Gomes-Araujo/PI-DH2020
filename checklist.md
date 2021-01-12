@@ -6,8 +6,8 @@ Projeto DH
 
 ### Index - THIAGO
 - [X] Deixar o menu fixo
-- [ ] deixar o gradiente fixo
-- [ ] redimencionar a barra de pesquisa no index
+- [X] deixar o gradiente fixo
+- [X] redimencionar a barra de pesquisa no index
 
 ### Join - THIAGO
 - [ ] Inserir imagem
