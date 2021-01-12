@@ -29,6 +29,8 @@ footer {
   background-color: #6C6C6C!important;
   /* height: 90px; */
 }
+
+/* botões */
 .btn-outline-success {
   background-color:#6BACA8;
   color: #ffff!important;
@@ -37,7 +39,12 @@ footer {
 
 .btn-success {
   background-color:#6BACA8;
-  
+}
+
+.btn-secondary{
+  width: 95%;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 
@@ -108,13 +115,6 @@ footer {
   text-align: center;
 }
  */
-
-.btn-secondary{
-  width: 95%;
-  margin-left: 2%;
-  margin-right: 2%;
-}
-
 
 .form-signin{
   background-color: white;
