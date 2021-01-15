@@ -11,3 +11,12 @@ for (let i = 0; i < cards.length; i++) {
     this.classList.add('shrink');
   })
 }
+
+let logo = document.querySelector('.logo');
+ logo.addEventListener('mouseover', function(){
+   logo.style.transform = 'rotate(180deg)'
+ });
+
+ logo.addEventListener('mouseout', function(){
+  logo.style.transform = 'rotate(0deg)'
+})
