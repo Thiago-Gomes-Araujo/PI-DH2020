@@ -170,3 +170,17 @@ footer {
   text-align: center;
   padding-bottom: 5px;
 }
+
+/* js */
+
+.shrink{
+  /* animation: shrink 0.3s; */
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+}
+
+.grow{
+  /* animation: grow 0.3s; */
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
