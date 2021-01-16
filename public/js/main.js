@@ -13,7 +13,7 @@ for (let i = 0; i < cards.length; i++) {
   })
 }
 
-for (let i = 0; i < cards.length; i++) {
+for (let i = 0; i < cards1.length; i++) {
   cards1[i].addEventListener('mouseover',function(){
     this.classList.add('grow');
     this.classList.remove('shrink');
