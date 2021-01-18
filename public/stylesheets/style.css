@@ -40,11 +40,11 @@ footer {
 .btn-outline-success {
   background-color:#6BACA8;
   color: #ffff!important;
-  height: 35px;
 }
 
 .btn-success {
   background-color:#6BACA8;
+  height: 35px;
 }
 
 .btn-secondary{
@@ -151,7 +151,7 @@ footer {
 }
 
 
-.row-2 input.form-control {
+.row-1 input.form-control {
   height: 35px;
 }
 
