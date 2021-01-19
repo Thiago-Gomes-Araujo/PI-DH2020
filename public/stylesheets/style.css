@@ -40,7 +40,9 @@ footer {
 .btn-outline-success {
   background-color:#6BACA8;
   color: #ffff!important;
+  
 }
+
 
 .btn-success {
   background-color:#6BACA8;
@@ -159,6 +161,24 @@ footer {
   width: 100px;
   height: 100px;
   border-radius: 50%;
+}
+
+.tech{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.card-text{
+  text-align: justify
+}
+
+.card-body2 {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+  height: 360px;
 }
 
 .programador{
