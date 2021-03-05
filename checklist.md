@@ -14,8 +14,8 @@ Projeto DH
 
 ### Sign in - MARCELO
 - [X] Colocar a página com o fundo gradiente
-- [ ] Colocar uma imagem na página (?) [avaliar]
 - [ ] Colocar os campos corretos para o sign in
+- [ ] Fazer conexão do BD.
 
 ### Explore - VICTOR
 - [ ] Criar uma rota
