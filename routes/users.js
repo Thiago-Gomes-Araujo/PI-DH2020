@@ -12,3 +12,4 @@ router.get('/deslogar', UserController.logout);
 
 module.exports = router;
 
+
