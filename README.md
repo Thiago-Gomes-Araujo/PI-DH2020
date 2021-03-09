@@ -6,4 +6,7 @@ BD
 -> npm i mysql2
 
 Migrating the BD:
-yarn sequelize migration:generate --create_table_db_name_of_your_db
+-> yarn sequelize migration:generate --create_table_db_name_of_your_db
+
+Creating models
+-> npx sequelize init:models
