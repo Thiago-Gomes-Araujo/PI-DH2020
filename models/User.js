@@ -2,7 +2,7 @@ module.exports = (sequelize, DataType) =>  {
 
     const User = sequelize.define(
       'User', 
-      { 
+    { 
         id: {
             type: DataType.INTEGER,
             primaryKey: true,
@@ -20,9 +20,10 @@ module.exports = (sequelize, DataType) =>  {
           updatedAt: {
             type: DataType.DATE
           },
-          {
+        },
+        {
             tableName: 'users'
-          }
-    });
+        });
+
     return User;
 }
