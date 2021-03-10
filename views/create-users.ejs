@@ -15,9 +15,11 @@
       <div class="col-md-4 mb-3">
         <label for="validationServer02">Sobrenome</label>
         <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Last name" value="Otto" required>
+        <% if (typeof added !== "undefined") { %>
         <div class="valid-feedback">
           Looks good!
         </div>
+        <% } %> 
       </div>
       <div class="col-md-4 mb-3">
         <label for="validationServerUsername">Username</label>

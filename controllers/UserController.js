@@ -1,5 +1,5 @@
 const bcrypt = require("bcrypt");
-const { User } = require("../models");
+const { User, Card } = require("../models");
 
 module.exports = {
   create(req, res, next) {
