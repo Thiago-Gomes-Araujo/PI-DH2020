@@ -3,7 +3,7 @@ const { User, Card } = require("../models");
 
 module.exports = {
   create(req, res, next) {
-    res.render('create-user');
+    res.render('create-users');
   },
 
   async save(req, res, next) {
@@ -12,7 +12,7 @@ module.exports = {
     
     await User.create(user);
 
-    res.render('create-user', { added: true });
+    res.render('create-users', { added: true });
   },
 
   login(req, res, next) {
